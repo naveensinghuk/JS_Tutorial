@@ -1,0 +1,18 @@
+.color{
+    padding: 5px;
+    border: 5px solid rgb(0,0,255);
+   border-radius: 1rem;
+   
+}
+.dim{
+    background-color: rgb(13, 12, 12);
+    color: rgb(255, 255, 255);  
+}
+
+#height_widht{
+    padding: 10px;
+    background-color: aquamarine;
+    border: 10px solid black;
+    margin: 0px;
+}
+

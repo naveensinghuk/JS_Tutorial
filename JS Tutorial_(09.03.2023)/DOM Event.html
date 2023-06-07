@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="DOM Event/dom event.css">
+    <link rel="stylesheet" href="DOM Event/mouse event.css">
+    <link rel="stylesheet" href="DOM Event/scroll event.css">
+    <link rel="stylesheet" href="/DOM Event/input event.css">
+    <link rel="stylesheet" href="/DOM Event/event bubbling and capturing.css">
+    
+</head>
+<body >// addEventListner......
+    <br>
+    <br>
+    <button id="btn" onclick="buttonclick()">Click me!</button><!-- this is onclick event-->
+    <br>
+    <br>
+    <button id="btn1">First Click me!</button>
+    <br>
+    <br>
+    <button id="btn2">First Click me! created by annonymous function</button>
+    <br><br>
+    <button id="multiple_event">this is multiple event listner !</button>
+    <br>
+    <br>
+
+    // remove EventListner..........
+    <br><br>
+
+    <button id="remve"> click</button>
+    <br><br>
+    // page load event....
+    <br><br>
+    <img id=img1 src="/5.mb image 2.jpg" alt="no image" width=500px height=300px>
+
+    // mouse event..............
+
+    <div id="box" onclick="onclick_fun()" oncontextmenu="rightclick()" ondblclick="duble_click()" onmousedown="mousedown_event()" onmouseup="mouseup_event()">click in box inline event</div> <!-- this is inline event-->
+
+    <br>
+    <div id="script">click in box</div>
+    <br><br>
+    // key down event.........
+<br><br>
+    // scroll event.........
+    <p> Scrolling........</p>
+    <br><br>
+    // input event............
+    <form action="">
+        <input type="text" id="myinput">
+    </form>
+<br>
+    // Event bubbling and event capturing........
+    <br><br>
+    <div id="child_1">
+        <button id="child_2">event bubbling and capturing </button>
+    </div>
+    <br>
+    <br>
+    // prevent defult event ................
+    <br>
+    <a href="https://www.google.com" target="_blank" id="link_disable">click link</a>
+    <br>
+    <form action="">
+        <input type="text">
+        <input type="submit" id="submt">
+    </form>
+    <br>
+    <br>
+
+    
+
+    <!-- <script src="DOM Event/dom event.js"></script> -->
+    <!-- <script src="DOM Event/remove event.js"></script> -->
+    <!-- <script src="DOM Event/page load event.js"></script> -->
+       <!-- <script src="DOM Event/mouse event.js"></script> -->
+       <!-- <script src="DOM Event/key down event.js"></script> -->
+       <!-- <script src="DOM Event/scroll event.js"></script> -->
+       <!-- <script src="DOM Event/input event.js"></script> -->
+       <!-- <script src="DOM Event/event bubbling and event capturing.js"></script> -->
+       <script src="DOM Event/prevent default.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    width: 1000px;
+    height: 1000px;
+}
+#child_1{
+    background-color: blue;
+   height: 80px;
+   width: 200px;
+   padding-top: 30px;
+}
+#child_2{
+    color: aliceblue;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+}
